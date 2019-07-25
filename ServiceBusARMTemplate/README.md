@@ -13,3 +13,6 @@ Use this template to create Azure Service Bus Namespace, Queue, Topic and Subscr
 `Tags: Azure Service Bus, ARM Templates`
 
 For information about using this template, see [Create Service Bus resources using Azure Resource Manager templates](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-resource-manager-overview).
+
+Thank you,
+Shri
