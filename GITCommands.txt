@@ -1,0 +1,308 @@
+
+shrir@DESKTOP-FBK355M MINGW64 ~
+$ git checkout master
+fatal: not a git repository (or any of the parent directories): .git
+
+shrir@DESKTOP-FBK355M MINGW64 ~
+$ cd c:\
+>
+Display all 48 possibilities? (y or n)
+> cd
+Display all 48 possibilities? (y or n)
+.azurefunctions/
+.config/
+.devaccounts
+.dnx/
+.dotnet/
+.extaccounts
+.Nimbus Capture/
+.node_repl_history
+.nuget/
+.templateengine/
+.vs/
+.vscode/
+3D Objects/
+AppData/
+Application Data/
+Contacts/
+Cookies/
+Desktop/
+Documents/
+Downloads/
+Dropbox/
+Favorites/
+IntelGraphicsProfiles/
+Links/
+Local Settings/
+MicrosoftEdgeBackups/
+Music/
+My Documents/
+NetHood/
+Nimbus/
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{96211274-cb46-11e7-bacb-f3d885a720f3}.TM.blf
+NTUSER.DAT{96211274-cb46-11e7-bacb-f3d885a720f3}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{96211274-cb46-11e7-bacb-f3d885a720f3}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+OneDrive/
+Pictures/
+PrintHood/
+Recent/
+Roaming/
+Saved Games/
+Searches/
+SendTo/
+Start Menu/
+Templates/
+Videos/
+> cd
+bash: cd: c:cd: No such file or directory
+
+shrir@DESKTOP-FBK355M MINGW64 ~
+$
+
+shrir@DESKTOP-FBK355M MINGW64 ~
+$
+
+shrir@DESKTOP-FBK355M MINGW64 ~
+$
+
+shrir@DESKTOP-FBK355M MINGW64 ~
+$
+
+shrir@DESKTOP-FBK355M MINGW64 ~
+$ cd C:\Azure\WorkingFolder\ServiceBus\GIT
+bash: cd: C:AzureWorkingFolderServiceBusGIT: No such file or directory
+
+shrir@DESKTOP-FBK355M MINGW64 ~
+$ C:\Azure\WorkingFolder\ServiceBus\GIT
+bash: C:AzureWorkingFolderServiceBusGIT: command not found
+
+shrir@DESKTOP-FBK355M MINGW64 ~
+$ cd c:
+
+shrir@DESKTOP-FBK355M MINGW64 /c
+$ cd c:\
+> cd Azure
+bash: cd: too many arguments
+
+shrir@DESKTOP-FBK355M MINGW64 /c
+$ cd c:cd Azure\
+> cd WorkingFolder\
+> cd ServiceBus\
+>
+$Recycle.Bin/              inetpub/                   Program Files (x86)/       SWSetup/
+Azure/                     Intel/                     ProgramData/               SymCache/
+BizTalk/                   OneDriveTemp/              Recovery/                  System Volume Information/
+Config.Msi/                pagefile.sys               SfDevCluster/              SYSTEM.SAV/
+Documents and Settings/    PerfLogs/                  Shri/                      Users/
+hiberfil.sys               Personal/                  SQLServer2016Media/        Windows/
+hp/                        Program Files/             swapfile.sys               Windows.old/
+> Azure/
+bash: cd: too many arguments
+
+shrir@DESKTOP-FBK355M MINGW64 /c
+$ Azure
+bash: Azure: command not found
+
+shrir@DESKTOP-FBK355M MINGW64 /c
+$ cd /Azure
+bash: cd: /Azure: No such file or directory
+
+shrir@DESKTOP-FBK355M MINGW64 /c
+$ cd c/
+bash: cd: c/: No such file or directory
+
+shrir@DESKTOP-FBK355M MINGW64 /c
+$ cd /
+bin/               etc/               LICENSE.txt        ReleaseNotes.html  unins000.exe
+cmd/               git-bash.exe       mingw64/           tmp/               unins000.msg
+dev/               git-cmd.exe        proc/              unins000.dat       usr/
+
+shrir@DESKTOP-FBK355M MINGW64 /c
+$ cd /
+bin/               etc/               LICENSE.txt        ReleaseNotes.html  unins000.exe
+cmd/               git-bash.exe       mingw64/           tmp/               unins000.msg
+dev/               git-cmd.exe        proc/              unins000.dat       usr/
+
+shrir@DESKTOP-FBK355M MINGW64 /c
+$ cd c:
+
+shrir@DESKTOP-FBK355M MINGW64 /c
+$ cd /Azure
+bash: cd: /Azure: No such file or directory
+
+shrir@DESKTOP-FBK355M MINGW64 /c
+$ cd c:\
+> cd /Azure
+bash: cd: too many arguments
+
+shrir@DESKTOP-FBK355M MINGW64 /c
+$ cd c:\
+> Azure
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure
+$ cd /c/Azure/WorkingFolder/ServiceBus/GIT
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure/WorkingFolder/ServiceBus/GIT (master)
+$ git checkout master
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure/WorkingFolder/ServiceBus/GIT (master)
+$ git checkout -b 101-servicebus-queue-topic-subscription-filter-saskeys-outputs
+Switched to a new branch '101-servicebus-queue-topic-subscription-filter-saskeys-outputs'
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure/WorkingFolder/ServiceBus/GIT (101-servicebus-queue-topic-subscription-filter-saskeys-outputs)
+$ git add --all
+warning: LF will be replaced by CRLF in 101-servicebus-queue-topic-subscription-filter-saskeys/README.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in 101-servicebus-queue-topic-subscription-filter-saskeys/azuredeploy.json.
+The file will have its original line endings in your working directory.
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure/WorkingFolder/ServiceBus/GIT (101-servicebus-queue-topic-subscription-filter-saskeys-outputs)
+$ git add --all
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure/WorkingFolder/ServiceBus/GIT (101-servicebus-queue-topic-subscription-filter-saskeys-outputs)
+$ git commit -m "Add template: Service Bus Namespace creation with Queue, Topic, Subscriptions, Filters and SAS Keys"
+[101-servicebus-queue-topic-subscription-filter-saskeys-outputs 2ce73f515] Add template: Service Bus Namespace creation with Queue, Topic, Subscriptions, Filters and SAS Keys
+ 7 files changed, 329 insertions(+)
+ create mode 100644 .vs/GIT/v15/.suo
+ create mode 100644 .vs/ProjectSettings.json
+ create mode 100644 .vs/slnx.sqlite
+ create mode 100644 101-servicebus-queue-topic-subscription-filter-saskeys/README.md
+ create mode 100644 101-servicebus-queue-topic-subscription-filter-saskeys/azuredeploy.json
+ create mode 100644 101-servicebus-queue-topic-subscription-filter-saskeys/azuredeploy.parameters.json
+ create mode 100644 101-servicebus-queue-topic-subscription-filter-saskeys/metadata.json
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure/WorkingFolder/ServiceBus/GIT (101-servicebus-queue-topic-subscription-filter-saskeys-outputs)
+$ git checkout 101-servicebus-queue-topic-subscription-filter-saskeys-outputs
+Already on '101-servicebus-queue-topic-subscription-filter-saskeys-outputs'
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure/WorkingFolder/ServiceBus/GIT (101-servicebus-queue-topic-subscription-filter-saskeys-outputs)
+$ git push -u origin 101-servicebus-queue-topic-subscription-filter-saskeys-outputs
+remote: Permission to Azure/azure-quickstart-templates.git denied to shriazure.
+fatal: unable to access 'https://github.com/Azure/azure-quickstart-templates.git/': The requested URL returned error: 403
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure/WorkingFolder/ServiceBus/GIT (101-servicebus-queue-topic-subscription-filter-saskeys-outputs)
+$ git push -u origin 101-servicebus-queue-topic-subscription-filter-saskeys-outputs
+remote: Permission to Azure/azure-quickstart-templates.git denied to shriazure.
+fatal: unable to access 'https://github.com/Azure/azure-quickstart-templates.git/': The requested URL returned error: 403
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure/WorkingFolder/ServiceBus/GIT (101-servicebus-queue-topic-subscription-filter-saskeys-outputs)
+$ git push -u origin 101-servicebus-queue-topic-subscription-filter-saskeys-outputs
+remote: Permission to Azure/azure-quickstart-templates.git denied to shriazure.
+fatal: unable to access 'https://github.com/Azure/azure-quickstart-templates.git/': The requested URL returned error: 403
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure/WorkingFolder/ServiceBus/GIT (101-servicebus-queue-topic-subscription-filter-saskeys-outputs)
+$ git push -u origin 101-servicebus-queue-topic-subscription-filter-saskeys-outputs
+The authenticity of host 'github.com (192.30.253.112)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? y
+Please type 'yes' or 'no': yes
+Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+shrir@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure/WorkingFolder/ServiceBus/GIT (101-servicebus-queue-topic-subscription-filter-saskeys-outputs)
+$ git push -u origin 101-servicebus-queue-topic-subscription-filter-saskeys-outputs
+Warning: Permanently added the RSA host key for IP address '192.30.253.113' to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure/WorkingFolder/ServiceBus/GIT (101-servicebus-queue-topic-subscription-filter-saskeys-outputs)
+$ git push -u origin 101-servicebus-queue-topic-subscription-filter-saskeys-outputs
+shriazure@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure/WorkingFolder/ServiceBus/GIT (101-servicebus-queue-topic-subscription-filter-saskeys-outputs)
+$ git push -u origin 101-servicebus-queue-topic-subscription-filter-saskeys-outputs
+remote: Permission to Azure/azure-quickstart-templates.git denied to shriazure.
+fatal: unable to access 'https://github.com/Azure/azure-quickstart-templates.git/': The requested URL returned error: 403
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure/WorkingFolder/ServiceBus/GIT (101-servicebus-queue-topic-subscription-filter-saskeys-outputs)
+$ git remote set-url origin https://github.com/shriazure/azure-quickstart-templates
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure/WorkingFolder/ServiceBus/GIT (101-servicebus-queue-topic-subscription-filter-saskeys-outputs)
+$ git push -u origin 101-servicebus-queue-topic-subscription-filter-saskeys-outputs
+Counting objects: 13, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (13/13), 393.88 KiB | 5.47 MiB/s, done.
+Total 13 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/shriazure/azure-quickstart-templates
+ * [new branch]          101-servicebus-queue-topic-subscription-filter-saskeys-outputs -> 101-servicebus-queue-topic-subscription-filter-saskeys-outputs
+Branch '101-servicebus-queue-topic-subscription-filter-saskeys-outputs' set up to track remote branch '101-servicebus-queue-topic-subscription-filter-saskeys-outputs' from 'origin'.
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure/WorkingFolder/ServiceBus/GIT (101-servicebus-queue-topic-subscription-filter-saskeys-outputs)
+$ git push -u origin 101-servicebus-queue-topic-subscription-filter-saskeys-outputs
+Everything up-to-date
+Branch '101-servicebus-queue-topic-subscription-filter-saskeys-outputs' set up to track remote branch '101-servicebus-queue-topic-subscription-filter-saskeys-outputs' from 'origin'.
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure/WorkingFolder/ServiceBus/GIT (101-servicebus-queue-topic-subscription-filter-saskeys-outputs)
+$ git checkout 101-servicebus-queue-topic-subscription-filter-saskeys-outputs
+Already on '101-servicebus-queue-topic-subscription-filter-saskeys-outputs'
+M       .vs/slnx.sqlite
+M       101-servicebus-queue-topic-subscription-filter-saskeys/azuredeploy.parameters.json
+Your branch is up to date with 'origin/101-servicebus-queue-topic-subscription-filter-saskeys-outputs'.
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure/WorkingFolder/ServiceBus/GIT (101-servicebus-queue-topic-subscription-filter-saskeys-outputs)
+$ git add --all
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure/WorkingFolder/ServiceBus/GIT (101-servicebus-queue-topic-subscription-filter-saskeys-outputs)
+$ git commit -m "Added unique service bus namespace"
+[101-servicebus-queue-topic-subscription-filter-saskeys-outputs e3c429139] Added unique service bus namespace
+ 3 files changed, 1022 insertions(+), 1 deletion(-)
+ create mode 100644 .vs/config/applicationhost.config
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure/WorkingFolder/ServiceBus/GIT (101-servicebus-queue-topic-subscription-filter-saskeys-outputs)
+$ git push
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 11.17 KiB | 1.86 MiB/s, done.
+Total 8 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/shriazure/azure-quickstart-templates
+   2ce73f515..e3c429139  101-servicebus-queue-topic-subscription-filter-saskeys-outputs -> 101-servicebus-queue-topic-subscription-filter-saskeys-outputs
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure/WorkingFolder/ServiceBus/GIT (101-servicebus-queue-topic-subscription-filter-saskeys-outputs)
+$ git checkout 101-servicebus-queue-topic-subscription-filter-saskeys-outputs
+Already on '101-servicebus-queue-topic-subscription-filter-saskeys-outputs'
+Your branch is up to date with 'origin/101-servicebus-queue-topic-subscription-filter-saskeys-outputs'.
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure/WorkingFolder/ServiceBus/GIT (101-servicebus-queue-topic-subscription-filter-saskeys-outputs)
+$ git add --all
+warning: LF will be replaced by CRLF in 101-servicebus-queue-topic-subscription-filter-saskeys/README.md.
+The file will have its original line endings in your working directory.
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure/WorkingFolder/ServiceBus/GIT (101-servicebus-queue-topic-subscription-filter-saskeys-outputs)
+$ git commit -m "Fixed the Azure Deploy and Visualize buttons URLs"
+[101-servicebus-queue-topic-subscription-filter-saskeys-outputs 0aecca062] Fixed the Azure Deploy and Visualize buttons URLs
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure/WorkingFolder/ServiceBus/GIT (101-servicebus-queue-topic-subscription-filter-saskeys-outputs)
+$ git push
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 892 bytes | 446.00 KiB/s, done.
+Total 7 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+To https://github.com/shriazure/azure-quickstart-templates
+   e3c429139..0aecca062  101-servicebus-queue-topic-subscription-filter-saskeys-outputs -> 101-servicebus-queue-topic-subscription-filter-saskeys-outputs
+
+shrir@DESKTOP-FBK355M MINGW64 /c/Azure/WorkingFolder/ServiceBus/GIT (101-servicebus-queue-topic-subscription-filter-saskeys-outputs)
+$ C:\Azure\WorkingFolder\ServiceBus\GIT\101-servicebus-queue-topic-subscription-filter-saskeys

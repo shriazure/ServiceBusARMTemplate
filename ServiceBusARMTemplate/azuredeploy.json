@@ -58,6 +58,15 @@
     }
   },
   "variables": {
+    "defaultSASKeyName": "RootManageSharedAccessKey",
+    "authRuleResourceId": "[resourceId('Microsoft.ServiceBus/namespaces/authorizationRules', parameters('serviceBusNamespaceName'), variables('defaultSASKeyName'))]",
+    "sendOnlySASKeyName": "[parameters('sasPolicyNameToSend')]",
+    "authRuleResourceIdForQueue-Send": "[resourceId('Microsoft.ServiceBus/namespaces/queues/authorizationRules', parameters('serviceBusNamespaceName'), parameters('serviceBusQueueName'), variables('sendOnlySASKeyName'))]",
+    "authRuleResourceIdForTopic-Send": "[resourceId('Microsoft.ServiceBus/namespaces/topics/authorizationRules', parameters('serviceBusNamespaceName'), parameters('serviceBusTopicName'), variables('sendOnlySASKeyName'))]",
+    "listenOnlySASKeyName": "[parameters('sasPolicyNameToListen')]",
+    "authRuleResourceIdForQueue-Listen": "[resourceId('Microsoft.ServiceBus/namespaces/queues/authorizationRules', parameters('serviceBusNamespaceName'), parameters('serviceBusQueueName'), variables('listenOnlySASKeyName'))]",
+    "authRuleResourceIdForTopic-Listen": "[resourceId('Microsoft.ServiceBus/namespaces/topics/authorizationRules', parameters('serviceBusNamespaceName'), parameters('serviceBusTopicName'), variables('listenOnlySASKeyName'))]",
+    "sbVersion": "2017-04-01"
   },
   "resources": [
     {
@@ -234,5 +243,29 @@
     }
   ],
   "outputs": {
+    "NamespaceConnectionString": {
+      "type": "string",
+      "value": "[listkeys(variables('authRuleResourceId'), variables('sbVersion')).primaryConnectionString]"
+    },
+    "SharedAccessPolicyPrimaryKey": {
+      "type": "string",
+      "value": "[listkeys(variables('authRuleResourceId'), variables('sbVersion')).primaryKey]"
+    },
+    "QueueSASKeyForSend": {
+      "type": "string",
+      "value": "[listkeys(variables('authRuleResourceIdForQueue-Send'), variables('sbVersion')).primaryKey]"
+    },
+    "QueueSASKeyForListen": {
+      "type": "string",
+      "value": "[listkeys(variables('authRuleResourceIdForQueue-Listen'), variables('sbVersion')).primaryKey]"
+    },
+    "TopicSASKeyForSend": {
+      "type": "string",
+      "value": "[listkeys(variables('authRuleResourceIdForTopic-Send'), variables('sbVersion')).primaryKey]"
+    },
+    "TopicSASKeyForListen": {
+      "type": "string",
+      "value": "[listkeys(variables('authRuleResourceIdForTopic-Listen'), variables('sbVersion')).primaryKey]"
+    }
   }
 }
